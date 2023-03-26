@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="still.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+               <a href="#"><h1>BİLGİSAYAR</h1></a>
+         <div class="menü">
+                <ul>
+                    <li><a href="#">ANASAYFA</a></li>
+                    <li><a href="#">ÜRÜN LİSTESİ</a></li>
+                    <li><a href="#">ÜRÜN DETAYI</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+                    <li><a href="#">ÜRÜN SEPETİ</a></li>
+                </ul>
+         </div>
+         <div>
+            <asp:TextBox runat="server" ID="arama" Text="Ne Aramıştınız ?" ClientIDMode="Static"></asp:TextBox><asp:Button runat="server" OnClick="btnarama_click" ID="arama2" ClientIDMode="Static" Text="ARA"/>
+         </div>
+         <div id="girişlink" runat="server">
+          <a href="" id="admin" runat="server">ADMİN PANEL</a>
+          <a runat="server" id="giriş" href="">GİRİŞ/KAYIT</a>
+         </div>
+             </div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+                <div class="content">
+                    <div class="orta">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque placeat labore, minima molestiae, eum quisquam reiciendis dolore, earum expedita similique facilis debitis officiis. Eos eveniet voluptas nulla mollitia facere.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sapiente sunt hic ipsum fuga a accusantium minima, illum et molestiae aspernatur porro ducimus assumenda doloremque odit, debitis exercitationem corporis eligendi.<br>
+                    </div>
+            <div class="ilet">
+               <a href="#"><img src="İNSTAGRAM.jpg" /></a>
+               <a href="#"><img src="facebook.jpg"/></a>
+               <a href="#"><img src="twitter.jpg"/></a>
+            </div>
+         </div>
+            <div class="maker">
+                <a href="#">Mağazayı Bul</a>
+                <a href="#">555 555 55 55</a>
+                </div>
+        </form>
+    
+</body>
+</html>

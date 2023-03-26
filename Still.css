@@ -1,0 +1,227 @@
+﻿h1 , h2, h3 , h4 ,p , input , ul , li ,a
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-family:Tahoma;
+}
+.container
+{
+    margin:20px; 
+}
+#girişlink
+{
+    float:right;
+    margin-right:10px;
+    margin-top:-20px;    
+}
+#girişlink a 
+{
+    color:Black;
+    text-decoration:none;    
+}
+#girişlink a:hover
+{
+    background-color:#71c3d9;
+    color:White;
+    padding:3px;
+}
+.header
+{
+    height:100px;   
+}
+.header h1 
+{
+    float:left;
+    margin-top:30px;
+    color:Red;
+    font-style:italic;    
+}  
+#arama
+{
+    float:left;
+    margin-top:40px;
+    margin-left:30px;
+    padding:3px 10px 3px 10px;
+    border:1px solid black;    
+} 
+#arama2
+{
+    margin-top:40px;
+    padding:3px 7px 3px 7px;
+    margin-left:10px;
+    border:1px solid black;
+    font-weight:bold;
+}
+#arama2:hover
+{
+    color:White;
+    background-color:#71c3d9;    
+}
+.menü ul li
+{
+    display:inline;    
+}
+.menü
+{
+    float:left;
+    margin-left:40px;  
+    margin-top:40px;
+}
+.menü ul li a
+{
+    text-decoration:none;    
+    color:Blue;
+    font-weight:bold;
+    margin-left:10px;
+}
+.menü ul li a:hover
+{
+   border-bottom:1px solid black;
+   background-color:#71c3d9;
+   color:White;   
+}
+.slider
+{
+    height:1060px; 
+    border:1px solid black;   
+}
+.ortasol img
+{
+    float:left;
+    margin-top:24px;
+    width:790px;
+    float:left;
+    border-radius:15px;
+}
+.ortasol img:hover
+{
+    border:1px solid black;    
+}
+.ortasag img
+{
+    float:left;
+    margin-top:25px; 
+    margin-left:11px;   
+    border-radius:10px;
+ 
+}
+.ortasag img:hover
+{
+    border:1px solid black;    
+}
+.reklam img
+{
+    height:300px;
+    width:1255px;
+    margin-top:30px;
+    border-radius:30px;
+}
+.tiklama a
+{
+    padding:3px;
+    background-color:Red;
+    color:White;
+    text-decoration:none;
+    position:absolute;    
+    top:800px;
+    left:550px;
+    font-size:27px;
+}
+.tiklama2 a
+{
+    padding:3px;
+    background-color:Blue;
+    color:White;
+    text-decoration:none;
+    position:absolute;    
+    top:800px;
+    left:1150px;
+    font-size:27px;
+}
+.yeni img
+{
+    height:300px;    
+}
+.yeni a
+{
+    position:absolute;
+    top:1100px;
+    background-color:Red;
+    color:White;
+    left:450px;
+    text-decoration:none;    
+    padding:10px;
+    font-size:25px;
+    font-weight:bold;
+}
+.son img
+{
+    width:610px;    
+    height:300px;
+    float:left;
+    margin-left:30px;
+}
+.son a
+{
+    position:absolute;
+    top:1100px;
+    background-color:Red;
+    color:White;
+    left:1100px;
+    text-decoration:none;    
+    padding:10px;
+    font-size:25px;
+    font-weight:bold;    
+}
+.orta
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+.content
+{
+    height:150px;    
+}
+.ilet
+{
+    float:left;    
+    background-color:#8adcfa;
+    width:100%;
+    height:100px;
+    margin-top:300px;
+}
+.ilet img
+{
+    width:100px;
+    height:50px;
+    margin-top:30px;  
+    margin-left:230px;  
+    border-radius:10px;
+}
+.maker
+{
+    margin-top:500px;    
+}
+.maker a
+{
+
+    text-decoration:none;
+    padding:15px 18px 15px 18px;    
+    margin-left:350px;
+}
+.maker a:hover
+{
+    border:1px solid blue;
+    color:Black;
+    font-size:20px;    
+}
+
+
+
+
+
+
